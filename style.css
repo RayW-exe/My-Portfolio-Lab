@@ -15,7 +15,7 @@ body{
     gap: 20px;
     padding: 20px;
     width: 700px;
-    height: 800px;
+    height: 1000px;
     background-color: beige;
     border: 5px solid black;
     border-radius: 10px;
@@ -29,5 +29,11 @@ body{
     background-color: #c9c9c9;
     padding: 10px;
     width: 500px;
+}
+
+.project{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
 }
 
